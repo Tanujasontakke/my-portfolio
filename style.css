@@ -74,38 +74,56 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
-/* Button Styling */
+/* Toggle Button */
 #themeToggle {
   position: fixed;
   top: 20px;
   right: 20px;
   padding: 8px 14px;
-  background: #333;
-  color: white;
-  border: none;
+  background: #1e1e1e;
+  color: #00ff88;
+  border: 2px solid #00ff88;
   border-radius: 6px;
   cursor: pointer;
   z-index: 999;
 }
 
+/* DARK MODE with Green Accent */
 .dark-mode {
   background-color: #121212;
-  color: white;
+  color: #f0f0f0;
 }
 
 .dark-mode section {
   background-color: #1e1e1e;
 }
 
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode p,
+.dark-mode label {
+  color: #f0f0f0;
+}
+
 .dark-mode .card {
-  background-color: #222;
-  color: white;
-  border: 1px solid #555;
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  color: #f0f0f0;
+}
+
+.dark-mode a {
+  color: #00ff88;
 }
 
 .dark-mode input,
 .dark-mode textarea {
-  background-color: #333;
-  color: white;
-  border: 1px solid #555;
+  background-color: #2b2b2b;
+  color: #f0f0f0;
+  border: 1px solid #444;
+}
+
+.dark-mode button {
+  background-color: #00ff88;
+  color: #121212;
 }
