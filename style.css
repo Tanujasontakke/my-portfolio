@@ -100,10 +100,12 @@ button {
 
 .dark-mode h1,
 .dark-mode h2,
-.dark-mode h3,
-.dark-mode p,
 .dark-mode label {
   color: #3CB371;
+}
+.dark-mode h3,
+.dark-mode p {
+  color: #f0f0f0;
 }
 
 .dark-mode .card {
