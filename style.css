@@ -74,24 +74,38 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+/* Button Styling */
 #themeToggle {
   position: fixed;
   top: 20px;
   right: 20px;
-  padding: 8px 12px;
-  cursor: pointer;
+  padding: 8px 14px;
+  background: #333;
+  color: white;
+  border: none;
   border-radius: 6px;
+  cursor: pointer;
+  z-index: 999;
 }
+
 .dark-mode {
-  background: #121212;
+  background-color: #121212;
   color: white;
 }
-.dark-mode input, .dark-mode textarea {
-  background: #333;
+
+.dark-mode section {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .card {
+  background-color: #222;
   color: white;
   border: 1px solid #555;
 }
-.dark-mode .card {
-  background: #1e1e1e;
-  border: 1px solid #444;
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
 }
